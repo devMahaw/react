@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+:root {
+    --corPrincipal: #f9ca24;
+    --corSecundaria: #111;
+}
+
+.search {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
