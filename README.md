@@ -16,4 +16,5 @@ Neste projeto há um site que consome a api do github onde o usuário pode fazer
 - HTML
 - CSS
 - Vite
+- ESLint
 - React
